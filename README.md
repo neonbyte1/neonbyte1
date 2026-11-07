@@ -13,9 +13,11 @@
   <a href="https://github.com/neonbyte1/zen"><img src="profile/cards/zen.svg" alt="zen" width="49%"></a>
   <a href="https://github.com/neonbyte1/pe"><img src="profile/cards/pe.svg" alt="pe" width="49%"></a>
   <a href="https://github.com/neonbyte1/docker-msvc-wine"><img src="profile/cards/docker-msvc-wine.svg" alt="docker-msvc-wine" width="49%"></a>
+  <a href="https://github.com/memflow"><img src="profile/cards/memflow.svg" alt="memflow/memflow (contributor)" width="49%"></a>
   <a href="https://github.com/neonbyte1/factorio-mods"><img src="profile/cards/factorio-mods.svg" alt="factorio-mods" width="49%"></a>
   <a href="https://github.com/neonbyte1/danganronpa-d3d9-fix"><img src="profile/cards/danganronpa-d3d9-fix.svg" alt="danganronpa-d3d9-fix" width="49%"></a>
   <a href="https://github.com/neonbyte1/ts-tui"><img src="profile/cards/ts-tui.svg" alt="ts-tui" width="49%"></a>
+  <a href="https://github.com/neonbyte1/deno-libsodium"><img src="profile/cards/deno-libsodium.svg" alt="deno-libsodium" width="49%"></a>
 </p>
 <!-- cards:end -->
 
