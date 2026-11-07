@@ -1,4 +1,7 @@
 {
+  "tasks": {
+    "terminal": "deno run --allow-read=. --allow-write=. tools/scripts/terminal.ts"
+  },
   "lint": {
     "plugins": ["./tools/lint/deno_style.ts"],
     "exclude": ["node_modules/"]

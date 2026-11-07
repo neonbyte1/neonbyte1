@@ -1,0 +1,40 @@
+{
+  "user": "visitor",
+  "host": "github",
+  "cwd": "~",
+  "session": [
+    {
+      "command": "whoami",
+      "output": [
+        [{ "text": "neonbyte1", "color": "cyan" }, { "text": " · Vienna, AT", "color": "muted" }],
+        "Software engineer, DevOps, systems tinkerer and reverse engineer",
+        [{ "text": "writing code since ", "color": "muted" }, { "text": "2009", "color": "pink" }]
+      ]
+    },
+    {
+      "command": "cat focus.txt",
+      "output": [
+        [{ "text": "▸ ", "color": "pink" }, "Reversing binaries and Windows internals"],
+        [
+          { "text": "▸ ", "color": "pink" },
+          "PE / COFF tooling in C++ and TypeScript ",
+          { "text": "(because, why not)", "color": "muted" }
+        ],
+        [{ "text": "▸ ", "color": "pink" }, "Hypervisors, KVM & memory introspection"],
+        [{ "text": "▸ ", "color": "pink" }, "Linux-first and compatible toolchains for Windows targets"],
+        [{ "text": "▸ ", "color": "pink" }, "TypeScript on Deno, Bun and Node"],
+        [{ "text": "▸ ", "color": "pink" }, "Modding games like Factorio"]
+      ]
+    },
+    {
+      "command": "cat links.txt",
+      "output": [
+        { "icon": "web", "text": "neonbyte.me", "color": "cyan" },
+        { "icon": "github", "text": "github.com/neonbyte1", "color": "pink" },
+        { "icon": "jsr", "text": "jsr.io/@neonbyte", "color": "cyan" },
+        { "icon": "reddit", "text": "reddit.com/u/1neonbyte", "color": "pink" },
+        { "icon": "factorio", "text": "mods.factorio.com/user/neonbyte1", "color": "cyan" }
+      ]
+    }
+  ]
+}
