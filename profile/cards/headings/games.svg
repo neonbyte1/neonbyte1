@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="60" viewBox="0 0 900 60" role="img" aria-label="Games">
+  <defs>
+    <linearGradient id="plate" gradientUnits="userSpaceOnUse" x1="379" y1="0" x2="521" y2="0"><stop offset="0" stop-color="#2ef6ff"/><stop offset="1" stop-color="#ff2a6d"/></linearGradient>
+    <linearGradient id="left" x1="0" x2="1"><stop offset="0" stop-color="#2ef6ff" stop-opacity="0"/><stop offset="1" stop-color="#2ef6ff"/></linearGradient>
+    <linearGradient id="right" x1="0" x2="1"><stop offset="0" stop-color="#ff2a6d"/><stop offset="1" stop-color="#ff2a6d" stop-opacity="0"/></linearGradient>
+    <filter id="glow" x="-20%" y="-80%" width="140%" height="260%"><feGaussianBlur stdDeviation="2.5" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+    <filter id="halo" x="-10%" y="-50%" width="120%" height="200%"><feGaussianBlur stdDeviation="4"/></filter>
+  </defs>
+  <rect x="20" y="29.25" width="335" height="1.5" fill="url(#left)"/>
+  <rect x="361.5" y="26.5" width="7" height="7" transform="rotate(45 365 30)" fill="#2ef6ff" filter="url(#glow)"/>
+  <rect x="379" y="9" width="142" height="42" rx="21" fill="none" stroke="url(#plate)" stroke-width="3" opacity=".55" filter="url(#halo)"/>
+  <rect x="379" y="9" width="142" height="42" rx="21" fill="#07080d" stroke="url(#plate)" stroke-width="1.5"/>
+  <g transform="translate(399 18)" fill="#e6f1ff"><g transform="scale(0.0938)"><path d="M247.44,173.75a.68.68,0,0,0,0-.14L231.05,89.44c0-.06,0-.12,0-.18A60.08,60.08,0,0,0,172,40H83.89a59.88,59.88,0,0,0-59,49.52L8.58,173.61a.68.68,0,0,0,0,.14,36,36,0,0,0,60.9,31.71l.35-.37L109.52,160h37l39.71,45.09c.11.13.23.25.35.37A36.08,36.08,0,0,0,212,216a36,36,0,0,0,35.43-42.25ZM104,112H96v8a8,8,0,0,1-16,0v-8H72a8,8,0,0,1,0-16h8V88a8,8,0,0,1,16,0v8h8a8,8,0,0,1,0,16Zm40-8a8,8,0,0,1,8-8h24a8,8,0,0,1,0,16H152A8,8,0,0,1,144,104Zm84.37,87.47a19.84,19.84,0,0,1-12.9,8.23A20.09,20.09,0,0,1,198,194.31L167.8,160H172a60,60,0,0,0,51-28.38l8.74,45A19.82,19.82,0,0,1,228.37,191.47Z"/></g></g>
+  <text x="437" y="37" textLength="64" lengthAdjust="spacing" font-family="'JetBrains Mono','Fira Code',SFMono-Regular,Consolas,'Liberation Mono',Menlo,monospace" font-size="20" font-weight="700" fill="#e6f1ff">Games</text>
+  <rect x="531.5" y="26.5" width="7" height="7" transform="rotate(45 535 30)" fill="#ff2a6d" filter="url(#glow)"/>
+  <rect x="545" y="29.25" width="335" height="1.5" fill="url(#right)"/>
+</svg>

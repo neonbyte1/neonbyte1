@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="60" viewBox="0 0 900 60" role="img" aria-label="Systems">
+  <defs>
+    <linearGradient id="plate" gradientUnits="userSpaceOnUse" x1="366" y1="0" x2="534" y2="0"><stop offset="0" stop-color="#2ef6ff"/><stop offset="1" stop-color="#ff2a6d"/></linearGradient>
+    <linearGradient id="left" x1="0" x2="1"><stop offset="0" stop-color="#2ef6ff" stop-opacity="0"/><stop offset="1" stop-color="#2ef6ff"/></linearGradient>
+    <linearGradient id="right" x1="0" x2="1"><stop offset="0" stop-color="#ff2a6d"/><stop offset="1" stop-color="#ff2a6d" stop-opacity="0"/></linearGradient>
+    <filter id="glow" x="-20%" y="-80%" width="140%" height="260%"><feGaussianBlur stdDeviation="2.5" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+    <filter id="halo" x="-10%" y="-50%" width="120%" height="200%"><feGaussianBlur stdDeviation="4"/></filter>
+  </defs>
+  <rect x="20" y="29.25" width="322" height="1.5" fill="url(#left)"/>
+  <rect x="348.5" y="26.5" width="7" height="7" transform="rotate(45 352 30)" fill="#2ef6ff" filter="url(#glow)"/>
+  <rect x="366" y="9" width="168" height="42" rx="21" fill="none" stroke="url(#plate)" stroke-width="3" opacity=".55" filter="url(#halo)"/>
+  <rect x="366" y="9" width="168" height="42" rx="21" fill="#07080d" stroke="url(#plate)" stroke-width="1.5"/>
+  <g transform="translate(386 18)" fill="#e6f1ff"><g transform="scale(0.0938)"><path d="M104,104h48v48H104Zm136,48a8,8,0,0,1-8,8H216v40a16,16,0,0,1-16,16H160v16a8,8,0,0,1-16,0V216H112v16a8,8,0,0,1-16,0V216H56a16,16,0,0,1-16-16V160H24a8,8,0,0,1,0-16H40V112H24a8,8,0,0,1,0-16H40V56A16,16,0,0,1,56,40H96V24a8,8,0,0,1,16,0V40h32V24a8,8,0,0,1,16,0V40h40a16,16,0,0,1,16,16V96h16a8,8,0,0,1,0,16H216v32h16A8,8,0,0,1,240,152ZM168,96a8,8,0,0,0-8-8H96a8,8,0,0,0-8,8v64a8,8,0,0,0,8,8h64a8,8,0,0,0,8-8Z"/></g></g>
+  <text x="424" y="37" textLength="90" lengthAdjust="spacing" font-family="'JetBrains Mono','Fira Code',SFMono-Regular,Consolas,'Liberation Mono',Menlo,monospace" font-size="20" font-weight="700" fill="#e6f1ff">Systems</text>
+  <rect x="544.5" y="26.5" width="7" height="7" transform="rotate(45 548 30)" fill="#ff2a6d" filter="url(#glow)"/>
+  <rect x="558" y="29.25" width="322" height="1.5" fill="url(#right)"/>
+</svg>
