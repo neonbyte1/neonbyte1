@@ -18,3 +18,11 @@
   <a href="https://github.com/neonbyte1/ts-tui"><img src="profile/cards/ts-tui.svg" alt="ts-tui" width="49%"></a>
 </p>
 <!-- cards:end -->
+
+<h2 align="center">Toolbox</h2>
+
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=cpp,c,ts,deno,bun,nodejs,vue&theme=dark" alt="C++, C, TypeScript, Deno, Bun, Node.js, Vue">
+  <br>
+  <img src="https://skillicons.dev/icons?i=rust,lua,linux,arch,bash,docker,ansible&theme=dark" alt="Rust, Lua, Linux, Arch, Bash, Docker, Ansible">
+</p>
