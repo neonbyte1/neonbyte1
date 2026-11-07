@@ -1,0 +1,10 @@
+{
+  "lint": {
+    "plugins": ["./tools/lint/deno_style.ts"],
+    "exclude": ["node_modules/"]
+  },
+  "fmt": {
+    "lineWidth": 120,
+    "sortNamedImports": "maintain"
+  }
+}
