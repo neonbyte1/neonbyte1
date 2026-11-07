@@ -1,0 +1,62 @@
+{
+  "user": "neonbyte1",
+  "groups": [
+    {
+      "title": "Systems",
+      "icon": "cpu",
+      "cards": [
+        {
+          "repo": "zen",
+          "tag": "binary formats",
+          "description": "Dependency-free library to parse PE and COFF formats, independent of the host system."
+        },
+        {
+          "repo": "pe",
+          "tag": "binary formats",
+          "description": "System-independent TypeScript library for parsing PE and COFF binary files."
+        },
+        {
+          "repo": "docker-msvc-wine",
+          "tag": "toolchains",
+          "description": "MSVC, clang-cl and the Windows SDK in Docker via Wine. Build Windows binaries on Linux and in CI."
+        },
+        {
+          "repo": "memflow/memflow",
+          "tag": "introspection",
+          "contributor": true,
+          "url": "https://github.com/memflow",
+          "description": "Physical memory introspection framework; I contribute to its Win32, QEMU and KVM connectors."
+        }
+      ]
+    },
+    {
+      "title": "Games",
+      "icon": "gamepad",
+      "cards": [
+        {
+          "repo": "factorio-mods",
+          "tag": "modding"
+        },
+        {
+          "repo": "danganronpa-d3d9-fix",
+          "tag": "hooking",
+          "description": "D3D9 proxy DLL hooking EndScene to fix the upscaling flicker in Danganronpa on PC."
+        }
+      ]
+    },
+    {
+      "title": "TypeScript",
+      "icon": "typescript",
+      "cards": [
+        {
+          "repo": "ts-tui",
+          "tag": "terminal ui"
+        },
+        {
+          "repo": "deno-libsodium",
+          "tag": "crypto"
+        }
+      ]
+    }
+  ]
+}
