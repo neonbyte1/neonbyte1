@@ -1,6 +1,7 @@
 {
   "tasks": {
     "cards": "deno run --allow-net=api.github.com --allow-read=. --allow-write=. --allow-env=GITHUB_TOKEN tools/scripts/cards.ts",
+    "sections": "deno run --allow-read=. --allow-write=. tools/scripts/sections.ts",
     "terminal": "deno run --allow-read=. --allow-write=. tools/scripts/terminal.ts"
   },
   "lint": {
