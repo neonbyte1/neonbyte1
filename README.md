@@ -33,7 +33,9 @@
 </p>
 <!-- cards:end -->
 
-<h2 align="center">Toolbox</h2>
+<!-- section:toolbox:start -->
+<h3 align="center"><img src="profile/headings/toolbox.svg" alt="Toolbox" width="100%"></h3>
+<!-- section:toolbox:end -->
 
 <p align="center">
   <img src="https://skillicons.dev/icons?i=cpp,c,ts,deno,bun,nodejs,vue&theme=dark" alt="C++, C, TypeScript, Deno, Bun, Node.js, Vue">
